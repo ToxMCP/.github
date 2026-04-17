@@ -44,10 +44,21 @@ It is built for teams who want **structured scientific tools for agents** withou
 - Add **PBPK MCP** when the workflow needs internal-dose translation or TK simulation.
 - Add **AOP MCP** or **O-QT MCP** when you need mechanistic or QSAR-centered reasoning layers.
 
-## 📚 Scientific Foundation
+## 📚 Acknowledgements / Origins
 
-ToxMCP was developed in the context of **VHP4Safety** and related research and engineering efforts in computational toxicology and next-generation risk assessment.
+ToxMCP was developed, in part, in the context of the **VHP4Safety** project and related
+research and engineering efforts in computational toxicology and next-generation risk
+assessment.
 
+Funding: Dutch Research Council (NWO) — `NWA.1292.19.272` (`NWA` programme)
+
+This suite integrates with third-party data sources and services, including EPA CompTox,
+ADMETlab, AOP resources, OECD QSAR Toolbox, and Open Systems Pharmacology. Those upstream
+resources are owned and governed by their respective providers, and users remain responsible
+for meeting the access, API key, rate limit, and license or EULA requirements described by
+each module.
+
+- [VHP4Safety](https://github.com/VHP4Safety)
 - [Suite hub and docs](https://github.com/ToxMCP/toxmcp)
 - [Preprint](https://doi.org/10.64898/2026.02.06.703989)
 
