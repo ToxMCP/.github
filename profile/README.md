@@ -9,18 +9,20 @@ This org page is the **front door**. The canonical suite hub, onboarding path, a
 - **Star the suite hub:** [ToxMCP/toxmcp](https://github.com/ToxMCP/toxmcp)
 - **Best first run:** [CompTox MCP](https://github.com/ToxMCP/comptox-mcp)
 - **Public exposure module:** [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp)
+- **Public environmental fate module:** [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp)
 - **Preprint:** [bioRxiv DOI 10.64898/2026.02.06.703989](https://doi.org/10.64898/2026.02.06.703989)
 
 ## 🧪 Public Modules
 
 - [CompTox MCP](https://github.com/ToxMCP/comptox-mcp): EPA CompTox-backed identity, hazard, exposure, and bioactivity workflows
 - [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp): auditable deterministic exposure-scenario construction and PBPK-ready handoff
+- [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp): bounded environmental release-to-concentration screening, erosion/sediment transport screening, scientific review, and concentration handoff packaging
 - [PBPK MCP](https://github.com/ToxMCP/pbpk-mcp): toxicokinetic simulation, qualification, and dossier-facing outputs
 - [AOP MCP](https://github.com/ToxMCP/aop-mcp): AOP discovery, mechanistic reasoning, and scientific draft support
 - [O-QT MCP](https://github.com/ToxMCP/oqt-mcp): OECD QSAR Toolbox automation, grouping, read-across, and reports
 - [ADMETlab MCP](https://github.com/ToxMCP/admetlab-mcp): rapid ADMET utility workflows and prediction support
 
-Additional modules in progress include dietary exposure, environmental fate, and bioactivity-to-PoD workflows.
+Additional modules in progress include dietary exposure and bioactivity-to-PoD workflows.
 
 ## ✨ What To Expect
 
