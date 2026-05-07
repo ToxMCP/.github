@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/toxmcp-github-banner.png" alt="ToxMCP banner: the NGRA operating system for modular, interoperable, intelligent next-generation risk assessment" width="100%">
+</p>
+
 # ToxMCP
 
 **ToxMCP** is a suite of **guardrailed, auditable MCP servers** for computational toxicology, exposure science, mechanistic reasoning, and downstream kinetic workflows.
