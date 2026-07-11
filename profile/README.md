@@ -1,47 +1,36 @@
-<p align="center">
-  <img src="./assets/toxmcp-github-banner.png" alt="ToxMCP banner: the NGRA operating system for modular, interoperable, intelligent next-generation risk assessment" width="100%">
-</p>
-
 # ToxMCP
 
-**ToxMCP** is a suite of **guardrailed, auditable MCP servers** for computational toxicology, exposure science, mechanistic reasoning, and downstream kinetic workflows.
+ToxMCP is the open-source toxicology tool layer used by NGRA.ai, a next-generation risk assessment platform. It connects AI assistants to chemical-safety tools and returns structured, source-linked results with visible uncertainty and screening limitations.
 
-This org page is the **front door**. The canonical suite hub, onboarding path, and public module map live in **[ToxMCP/toxmcp](https://github.com/ToxMCP/toxmcp)**.
+Each module uses the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), an open standard that lets compatible AI assistants call external tools. You can use a module directly, combine several modules in a workflow, or review the code and evidence without using an AI assistant.
 
-## ⭐ Start Here
+## Start here
 
-- **Star the suite hub:** [ToxMCP/toxmcp](https://github.com/ToxMCP/toxmcp)
-- **Best first run:** [CompTox MCP](https://github.com/ToxMCP/comptox-mcp)
-- **Public exposure module:** [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp)
-- **Public environmental fate module:** [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp)
-- **Preprint:** [bioRxiv DOI 10.64898/2026.02.06.703989](https://doi.org/10.64898/2026.02.06.703989)
+- [ToxMCP suite guide](https://github.com/ToxMCP/toxmcp) — understand the modules and choose a starting point
+- [Computational Toxicology (CompTox) tools](https://github.com/ToxMCP/comptox-mcp) — try source-linked chemical identity and screening evidence from the U.S. Environmental Protection Agency
+- [Preprint](https://doi.org/10.64898/2026.02.06.703989) — read the scientific background
 
-## 🧪 Public Modules
+## Public tools
 
-- [CompTox MCP](https://github.com/ToxMCP/comptox-mcp): EPA CompTox-backed identity, hazard, exposure, and bioactivity workflows
-- [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp): auditable deterministic exposure-scenario construction and PBPK-ready handoff
-- [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp): bounded environmental release-to-concentration screening, erosion/sediment transport screening, scientific review, and concentration handoff packaging
-- [PBPK MCP](https://github.com/ToxMCP/pbpk-mcp): toxicokinetic simulation, qualification, and dossier-facing outputs
-- [AOP MCP](https://github.com/ToxMCP/aop-mcp): AOP discovery, mechanistic reasoning, and scientific draft support
-- [O-QT MCP](https://github.com/ToxMCP/oqt-mcp): OECD QSAR Toolbox automation, grouping, read-across, and reports
-- [ADMETlab MCP](https://github.com/ToxMCP/admetlab-mcp): rapid ADMET utility workflows and prediction support
+- **Chemical identity and screening evidence:** [CompTox MCP](https://github.com/ToxMCP/comptox-mcp)
+- **Exposure scenarios:** [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp)
+- **Environmental fate:** [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp)
+- **Kinetics and internal dose:** [Physiologically Based Pharmacokinetic (PBPK) MCP](https://github.com/ToxMCP/pbpk-mcp)
+- **Mechanistic pathways:** [Adverse Outcome Pathway (AOP) MCP](https://github.com/ToxMCP/aop-mcp)
+- **Chemical grouping and read-across:** [Organisation for Economic Co-operation and Development (OECD) QSAR Toolbox MCP](https://github.com/ToxMCP/oqt-mcp), where QSAR means quantitative structure-activity relationship
+- **Rapid property screening:** [ADMETlab MCP](https://github.com/ToxMCP/admetlab-mcp), covering absorption, distribution, metabolism, excretion, and toxicity
 
-Additional modules in progress include dietary exposure and bioactivity-to-PoD workflows.
+## What you should expect
 
-## ✨ What To Expect
+- source links and provenance that can be reviewed by a person
+- explicit assumptions, limitations, and uncertainty
+- structured results that can move between compatible tools
+- clear separation between screening evidence and stronger scientific conclusions
 
-- **Auditable by design** with explicit assumptions, provenance, and structured outputs
-- **MCP-native** tooling for agent frameworks, notebooks, and orchestrated workflows
-- **Scientifically bounded** modules that stay clear about their claims and limits
-- **Modular across domains** so exposure, hazard, mechanistic, QSAR, and PBPK workflows can interoperate cleanly
+These tools support research and screening. A runnable model or returned result is not automatically scientifically qualified, clinically appropriate, or ready for a regulatory decision. Review important outputs independently and follow each upstream data provider's access, rate-limit, license, and attribution terms.
 
-## 📚 Acknowledgements / Origins
+## Contributing and security
 
-ToxMCP was developed, in part, in the context of the **VHP4Safety** project and related research and engineering efforts in computational toxicology and next-generation risk assessment.
+Contributions are welcome. Start with the repository that owns the tool you want to change and read its local guidance. Organization-wide defaults are available in our [contributing guide](../CONTRIBUTING.md) and [security policy](../SECURITY.md).
 
-Funding: Dutch Research Council (NWO) — `NWA.1292.19.272` (`NWA` programme)
-
-This suite integrates with third-party data sources and services, including EPA CompTox, ADMETlab, AOP resources, OECD QSAR Toolbox, and Open Systems Pharmacology. Those upstream resources are owned and governed by their respective providers, and users remain responsible for meeting the access, API key, rate limit, and license or EULA requirements described by each module.
-
-- [VHP4Safety](https://github.com/VHP4Safety)
-- [Suite hub and docs](https://github.com/ToxMCP/toxmcp)
+ToxMCP was developed in part through the [VHP4Safety](https://github.com/VHP4Safety) project and related computational-toxicology research. Funding included the Dutch Research Council (NWO), grant `NWA.1292.19.272`.
