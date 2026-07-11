@@ -1,6 +1,6 @@
 # ToxMCP
 
-ToxMCP is the open-source toxicology tool layer used by NGRA.ai, a next-generation risk assessment platform. It connects AI assistants to chemical-safety tools and returns structured, source-linked results with visible uncertainty and screening limitations.
+ToxMCP is an open-source suite of chemical-safety tools for AI assistants. Its modules return structured, source-linked results with visible uncertainty and screening limitations.
 
 Each module uses the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), an open standard that lets compatible AI assistants call external tools. You can use a module directly, combine several modules in a workflow, or review the code and evidence without using an AI assistant.
 
