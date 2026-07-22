@@ -20,6 +20,7 @@ Each module uses the [Model Context Protocol](https://modelcontextprotocol.io/) 
 | --- | --- |
 | Chemical identity and screening evidence | [CompTox MCP](https://github.com/ToxMCP/comptox-mcp) |
 | Exposure scenarios | [Direct-Use Exposure MCP](https://github.com/ToxMCP/direct-use-exposure-mcp) |
+| Food-mediated dietary exposure screening | [Dietary Exposure MCP](https://github.com/ToxMCP/dietary-exposure-mcp) ([v0.1.0](https://github.com/ToxMCP/dietary-exposure-mcp/releases/tag/v0.1.0); screening only) |
 | Environmental fate | [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp) |
 | Kinetics and internal dose | [Physiologically Based Pharmacokinetic (PBPK) MCP](https://github.com/ToxMCP/pbpk-mcp) |
 | Mechanistic pathways | [Adverse Outcome Pathway (AOP) MCP](https://github.com/ToxMCP/aop-mcp) |
