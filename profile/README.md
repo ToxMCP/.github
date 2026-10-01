@@ -24,6 +24,7 @@ Each module uses the [Model Context Protocol](https://modelcontextprotocol.io/) 
 | Environmental fate | [Environmental Fate MCP](https://github.com/ToxMCP/environmental-fate-mcp) |
 | Kinetics and internal dose | [Physiologically Based Pharmacokinetic (PBPK) MCP](https://github.com/ToxMCP/pbpk-mcp) |
 | Mechanistic pathways | [Adverse Outcome Pathway (AOP) MCP](https://github.com/ToxMCP/aop-mcp) |
+| Epigenomic evidence and assay interpretation | [Epigenomics MCP](https://github.com/ToxMCP/epigenomics-mcp) |
 | Chemical grouping and read-across | [OECD QSAR Toolbox MCP](https://github.com/ToxMCP/oqt-mcp), for quantitative structure–activity relationships |
 | Rapid screening of absorption, distribution, metabolism, excretion, and toxicity | [ADMETlab MCP](https://github.com/ToxMCP/admetlab-mcp) |
 
